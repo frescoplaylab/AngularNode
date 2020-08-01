@@ -3,6 +3,7 @@ var bodyParser = require('body-parser')
 var cors = require('cors')
 const app = express()
 const port = 8001
+global.globalThis = xxx
 
 app.use(cors())
 
