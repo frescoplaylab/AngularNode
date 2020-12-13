@@ -11,7 +11,7 @@ describe('TodoService', () => {
   let todoService: TodoService;
 
   describe('#getList()', () => {
-      beforeEach(async() => {
+      beforeEach(async () => {
         TestBed.configureTestingModule({
           imports: [HttpClientTestingModule],
           providers: [TodoService]
